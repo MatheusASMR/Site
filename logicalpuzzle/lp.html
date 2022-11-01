@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="lp.css" media="screen" />
+  <script type="text/javascript" src="lp.js"></script>
+  <link rel="icon" type="imagem/png" href="https://matheusasmr.000webhostapp.com/icos/asmr2.png"/>
+  <title>Teste de lógica</title>
+</head>
+
+<body id="background">
+<header  class="cabecalho">
+  <label class ="voltar"><a href="https://matheusasmr.000webhostapp.com/projects/p.html"> <button id="voltar"  ><img class="exitbutton" src="https://matheusasmr.000webhostapp.com/icos/exit.png"></button></a></label>
+  <img  class="logo" src="https://matheusasmr.000webhostapp.com/icos/asmr2.png">
+</header>
+
+
+<button onclick="teste()">1</button>
+<button onclick="teste2()">2</button>
+
+<div style="justify-content:space-evenly; display: flex;">
+
+  <div style="margin-top:-10px ;">  
+    <br><br><br>
+    Cor<br>
+    Nacionalidade<br>
+    Bebida<br>
+    Cigarro<br>
+    Animal
+  </div>
+ 
+  <div class="casinha" id="casa1">  
+    <a class="casatexto">1ªCasa</a><br>
+    <config><select id="casa1config">
+      <option value=""></option>
+      <option value="amarelo">Amarela</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branca</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelha</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Alemão</option>
+      <option>Dinamarquês</option>
+      <option>Inglês</option>
+      <option>Norueguês</option>
+      <option>Sueco</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Água</option>
+      <option>Café</option>
+      <option>Cerveja</option>
+      <option>Chá</option>
+      <option>Leite</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Blends</option>
+      <option>Bluemaster</option>
+      <option>Dunhill</option>
+      <option>Pall Mall</option>
+      <option>Prince</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Cachorros</option>
+      <option>Cavalos</option>
+      <option>Gatos</option>
+      <option>Pássaros</option>
+      <option>Peixes</option>
+    </select></config>
+  </div>
+
+  <div class="casinha" id="casa2">  
+    <a class="casatexto">2ªCasa</a><br>
+    <config><select id="casa2config" >
+      <option value=""></option>
+      <option value="amarelo">Amarela</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branca</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelha</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Alemão</option>
+      <option>Dinamarquês</option>
+      <option>Inglês</option>
+      <option>Norueguês</option>
+      <option>Sueco</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Água</option>
+      <option>Café</option>
+      <option>Cerveja</option>
+      <option>Chá</option>
+      <option>Leite</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Blends</option>
+      <option>Bluemaster</option>
+      <option>Dunhill</option>
+      <option>Pall Mall</option>
+      <option>Prince</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Cachorros</option>
+      <option>Cavalos</option>
+      <option>Gatos</option>
+      <option>Pássaros</option>
+      <option>Peixes</option>
+    </select></config>
+  </div>  
+  
+  <div class="casinha" id="casa3">  
+    <a class="casatexto">3ªCasa</a><br>
+    <config><select id="casa3config" >
+      <option value=""></option>
+      <option value="amarelo">Amarela</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branca</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelha</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Alemão</option>
+      <option>Dinamarquês</option>
+      <option>Inglês</option>
+      <option>Norueguês</option>
+      <option>Sueco</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Água</option>
+      <option>Café</option>
+      <option>Cerveja</option>
+      <option>Chá</option>
+      <option>Leite</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Blends</option>
+      <option>Bluemaster</option>
+      <option>Dunhill</option>
+      <option>Pall Mall</option>
+      <option>Prince</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Cachorros</option>
+      <option>Cavalos</option>
+      <option>Gatos</option>
+      <option>Pássaros</option>
+      <option>Peixes</option>
+    </select></config>
+  </div>  
+  
+  <div class="casinha" id="casa4">  
+    <a class="casatexto">4ªCasa</a><br>
+    <config><select id="casa4config" >
+      <option value=""></option>
+      <option value="amarelo">Amarela</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branca</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelha</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Alemão</option>
+      <option>Dinamarquês</option>
+      <option>Inglês</option>
+      <option>Norueguês</option>
+      <option>Sueco</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Água</option>
+      <option>Café</option>
+      <option>Cerveja</option>
+      <option>Chá</option>
+      <option>Leite</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Blends</option>
+      <option>Bluemaster</option>
+      <option>Dunhill</option>
+      <option>Pall Mall</option>
+      <option>Prince</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Cachorros</option>
+      <option>Cavalos</option>
+      <option>Gatos</option>
+      <option>Pássaros</option>
+      <option>Peixes</option>
+    </select></config>
+  </div>  
+  
+  <div class="casinha" id="casa5">  
+    <a class="casatexto">5ªCasa</a><br>
+    <config><select id="casa5config" >
+      <option value=""></option>
+      <option value="amarelo">Amarela</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branca</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelha</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Alemão</option>
+      <option>Dinamarquês</option>
+      <option>Inglês</option>
+      <option>Norueguês</option>
+      <option>Sueco</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Água</option>
+      <option>Café</option>
+      <option>Cerveja</option>
+      <option>Chá</option>
+      <option>Leite</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Blends</option>
+      <option>Bluemaster</option>
+      <option>Dunhill</option>
+      <option>Pall Mall</option>
+      <option>Prince</option>
+    </select><br>
+    <select>
+      <option></option>
+      <option>Cachorros</option>
+      <option>Cavalos</option>
+      <option>Gatos</option>
+      <option>Pássaros</option>
+      <option>Peixes</option>
+    </select></config>
+  </div>
+
+</div>
+
+<div style="width:100% ;background-color: rgba(255, 255, 255, 0.4);position: fixed; bottom: 20%; justify-content:space-evenly; display: flex;"><br>
+ 
+  <div  style="display: table-cell; ">
+  <a class="dicatitle">Dicas:</a><br>
+  <input id="tip1" type="checkbox"disabled></input>O Norueguês vive na primeira casa.<br>
+  <input id="tip2" type="checkbox"disabled></input>O Inglês vive na casa Vermelha.<br>
+  <input id="tip3" type="checkbox"disabled></input>O Sueco tem Cachorros como animais de estimação.<br>
+  <input id="tip4" type="checkbox"disabled></input>O Dinamarquês bebe Chá.<br>
+  <input id="tip5" type="checkbox"disabled></input>A casa Verde fica do lado esquerdo da casa Branca.<br>
+  <input id="tip6" type="checkbox"disabled></input>O homem que vive na casa Verde bebe Café.<br>
+  <input id="tip7" type="checkbox"disabled></input>O homem que fuma Pall Mall cria Passáros.<br>
+
+</div>
+
+<div style="display: tabdisabledle-cell;">
+  <input id="tip8" type="checkbox"disabled></input>O homem que vive na casa Amarela fuma Funhill.<br>
+  <input id="tip9" type="checkbox"disabled></input>O homem que vive na casa do meio bebe Leite.<br>
+  <input id="tip10" type="checkbox"disabled></input>O homem que fuma Blends vive ao lado do que tem Gatos.<br>
+  <input id="tip11" type="checkbox"disabled></input>O homem que cria Cavalos vive ao lado do que fuma Dunhill.<br>
+  <input id="tip12" type="checkbox"disabled></input>O homem que fuma BlueMaster bebe Cerveja.<br>
+  <input id="tip13" type="checkbox"disabled></input>O Alemão fuma Prince.<br>
+  <input id="tip14" type="checkbox"disabled></input>O Norueguês vive ao lado da casa Azul.<br>
+  <input id="tip15" type="checkbox"disabled></input>O homem que fuma Blends é vizinho do que bebe Água.
+</div>
+
+</div>
+
+<div id="divback">
+
+
+
+
+
+
+
+  <div class="modal">
+    <div class="content">
+      <h1 class="title">Jogar novamente?</h1>
+<button onclick="reset()">↺</button>
+    </div>
+  </div>
+
+
+
+
+  <footer id="fundoRef">
+    <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/instagram.png" alt="Instagram">
+    <a class="sitesText" href="https://instagram.com/matheus.asmr">
+      <link id="siteinsta">Instagram</button></div></a>
+
+      <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/linkedin.png" alt="LinkedIn">
+      <a class="sitesText" href="https://linkedin.com/in/matheusasmr">
+        <link id="sitelink">LinkedIn</button></div></a>
+
+        <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/facebook.png" alt="Facebook">
+        <a class="sitesText" href="https://facebook.com/matheusasmr">
+          <link id="siteface">Facebook</button></div></a>
+
+          <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/github.png" alt="GitHub">
+          <a class="sitesText" href="https://github.com/matheusasmr">
+            <link id="sitegit">GitHub</button></div></a>
+          </footer>
+
+         
+          <a class="whatsappback"  href="https://web.whatsapp.com/send?phone=5531993145906&text= Olá Matheus, queria tirar algumas dúvidas com você! "><img class="whatsapp" src="https://matheusasmr.000webhostapp.com/icos/whatsapp.png" alt="WhatsApp" ></a>
+  
+</div>
+    
+<script>
+  var mudaCor1= document.getElementById("casa1config");
+  mudaCor1.addEventListener('change', () => {
+      switch (casa1config.value) {
+      case "":
+      document.getElementById("casa1").style.backgroundColor = "gray";
+      break;
+      case "amarelo":
+      document.getElementById("casa1").style.backgroundColor = "yellow";
+      break; 
+      case "azul":
+      document.getElementById("casa1").style.backgroundColor = "blue";
+      break;
+      case "branco":
+      document.getElementById("casa1").style.backgroundColor = "white";
+      break; 
+      case "verde":
+      document.getElementById("casa1").style.backgroundColor = "green";
+      break;
+      case "vermelho":
+      document.getElementById("casa1").style.backgroundColor = "red";
+      break; 
+      default:
+      break;
+      }})
+  
+  var mudaCor2= document.getElementById("casa2config");
+  mudaCor2.addEventListener('change', () => {
+      switch (casa2config.value) {
+      case "":
+      document.getElementById("casa2").style.backgroundColor = "gray";
+      break;
+      case "amarelo":
+      document.getElementById("casa2").style.backgroundColor = "yellow";
+      break; 
+      case "azul":
+      document.getElementById("casa2").style.backgroundColor = "blue";
+      break;
+      case "branco":
+      document.getElementById("casa2").style.backgroundColor = "white";
+      break; 
+      case "verde":
+      document.getElementById("casa2").style.backgroundColor = "green";
+      break;
+      case "vermelho":
+      document.getElementById("casa2").style.backgroundColor = "red";
+      break; 
+      default:
+      break;
+      }})
+
+      var mudaCor3= document.getElementById("casa3config");
+  mudaCor3.addEventListener('change', () => {
+      switch (casa3config.value) {
+      case "":
+      document.getElementById("casa3").style.backgroundColor = "gray";
+      break;
+      case "amarelo":
+      document.getElementById("casa3").style.backgroundColor = "yellow";
+      break; 
+      case "azul":
+      document.getElementById("casa3").style.backgroundColor = "blue";
+      break;
+      case "branco":
+      document.getElementById("casa3").style.backgroundColor = "white";
+      break; 
+      case "verde":
+      document.getElementById("casa3").style.backgroundColor = "green";
+      break;
+      case "vermelho":
+      document.getElementById("casa3").style.backgroundColor = "red";
+      break; 
+      default:
+      break;
+      }})
+
+      var mudaCor4= document.getElementById("casa4config");
+  mudaCor4.addEventListener('change', () => {
+      switch (casa4config.value) {
+      case "":
+      document.getElementById("casa4").style.backgroundColor = "gray";
+      break;
+      case "amarelo":
+      document.getElementById("casa4").style.backgroundColor = "yellow";
+      break; 
+      case "azul":
+      document.getElementById("casa4").style.backgroundColor = "blue";
+      break;
+      case "branco":
+      document.getElementById("casa4").style.backgroundColor = "white";
+      break; 
+      case "verde":
+      document.getElementById("casa4").style.backgroundColor = "green";
+      break;
+      case "vermelho":
+      document.getElementById("casa4").style.backgroundColor = "red";
+      break; 
+      default:
+      break;
+      }})
+
+      var mudaCor5= document.getElementById("casa5config");
+  mudaCor5.addEventListener('change', () => {
+      switch (casa5config.value) {
+      case "":
+      document.getElementById("casa5").style.backgroundColor = "gray";
+      break;
+      case "amarelo":
+      document.getElementById("casa5").style.backgroundColor = "yellow";
+      break; 
+      case "azul":
+      document.getElementById("casa5").style.backgroundColor = "blue";
+      break;
+      case "branco":
+      document.getElementById("casa5").style.backgroundColor = "white";
+      break; 
+      case "verde":
+      document.getElementById("casa5").style.backgroundColor = "green";
+      break;
+      case "vermelho":
+      document.getElementById("casa5").style.backgroundColor = "red";
+      break; 
+      default:
+      break;
+      }})
+  
+  
+  
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,239 @@
+config *{
+  width: 100px;
+}
+
+.casinha{
+  border: 1px; 
+  border-style:solid; 
+  padding-bottom: 1%; 
+  padding: 5px ;
+  background-color: gray;
+}
+
+.casatexto{
+  display:flex; 
+  justify-content: center
+}
+
+.dicatitle{
+  color:rgb(66, 66, 247); 
+  font-weight:bold; 
+  background-color: rgba(0,0,0,0.2)
+}
+#background {
+  background-color: rgb(70, 70, 70);
+}
+
+.exitbutton{
+  height: 20px;
+  transform: scaleX(-1);
+}
+
+#divback {
+  background-color: rgb(70, 70, 70);
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px;
+  border-style: solid;
+  border-color: red;
+}
+
+#pontos {
+  width: 240px;
+  margin-top: 1%;
+  position: absolute;
+  text-align: center;
+}
+
+.cabecalho{
+  height: 50px;
+  right: 0px;
+  width: 100%;
+
+}
+
+#voltar{
+  margin-top: 00px;
+  margin-left: 00px;
+  width: 60px;
+  height: 40px;
+  font-weight:bold ;
+  background-color: rgba(127, 204, 223, 0.3);
+  
+
+}
+
+.logo{
+  height: 90px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  
+}
+
+.nums {
+  display: inline-block;
+  width: 64px;
+  height: 63px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+
+
+.whatsappback{
+  right: 20px;
+  bottom: 30px;
+  border: 0px;  
+  border-style:solid;
+  border-color: red;
+  position: fixed;
+
+}
+
+.whatsapp{
+  width: 80px;
+  border: 0px;  
+  border-style:solid;
+  border-color: red;
+}
+
+.campo_botoes {
+  background-color: rgb(127 204 223);
+  padding: 20px;
+  width: 200px;
+  position: absolute;
+  top: 150px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  
+  
+}
+
+
+h3,
+h1 {
+  color: white;
+}
+
+#jogador {
+  color: white;
+  border-color: transparent;
+  background-color: transparent;
+  display: static;
+  font-size: 20px;
+  width: 20px;
+}
+
+
+#fundoRef{
+  background-color: rgb(127 204 223);
+  width: 100%;
+  bottom: 0px;
+  position:fixed;
+  margin-bottom: 0%;
+  text-align: left;
+  padding-left: 30px;
+
+}
+
+.icoRef {
+  width: 18px;
+  border: 0px;
+  border-style: solid;
+  border-color: red;
+  
+}
+
+.sitesText{
+  color: rgb(0, 0, 0);
+  font-size: 145%;
+  display:contents;}
+
+.external {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+
+/* CSS DO MODAL */
+
+
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #1A1110;
+  margin-bottom: 5%;
+}
+
+.modalBtn {
+  height: 5vh;
+  min-height: 30px;
+  width: 15vh;
+  min-width: 130px;
+
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+
+  background-color: #c8d7e6;
+}
+
+.text {
+  margin-top: 0;
+  font-size: 1.1em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 109%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .content {
+  background-color: White;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 600px){
+  .sitesText{
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+    display:contents;}
+    .icoRef{
+      width: 10px ;
+    }
+    .title{
+      font-size: 80%;
+
+
+    }
+}

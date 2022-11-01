@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASMR Tech</title>
+  <link rel="stylesheet" type="text/css" href="p.css" media="screen" />
+  <link rel="icon" type="imagem/png" href="https://matheusasmr.000webhostapp.com/icos/asmr2.png"/>
+
+
+</head>
+
+<body id="background">
+  <header  class="cabecalho">
+    <img  class="logo" src="https://matheusasmr.000webhostapp.com/icos/asmr2.png">
+  </header>
+
+ <a class="divBarras">
+
+  <!-- Page Content -->
+  <div class="divfechaBarra" style="display:none; position: fixed; left: 0;" id="barraAberta">
+    <button onclick="fechaBarra()"  class="classAberta">☰</button>
+    <a href="https://matheusasmr.000webhostapp.com/homepage/hp.html" class="itemBarra">Página inicial</a>
+    <a href="https://matheusasmr.000webhostapp.com/projects/p.html" class="itemBarra">Meus projetos</a>
+    <a href="https://matheusasmr.000webhostapp.com/curriculo/c.html" class="itemBarra">Currículo</a>
+    <a href="https://matheusasmr.000webhostapp.com/aboutme/am.html" class="itemBarra">Sobre mim</a>
+  </div>
+  
+  <!-- Page Content -->
+  <div class="divabreBarra" style="display:block; position: fixed; left: 0;" id="barraFechada" >
+    <button class="classFechada" onclick="abreBarra()">☰</button>
+    <div class="w3-container">
+      <h1></h1>
+    </div>
+  </div>
+</a>
+
+<script>
+  function abreBarra() {
+    document.getElementById("barraAberta").style.display = "block";
+    document.getElementById("barraFechada").style.display = "none";
+  }
+  
+  function fechaBarra() {
+    document.getElementById("barraAberta").style.display = "none";
+    document.getElementById("barraFechada").style.display = "block";
+  }
+  </script>
+
+  <div id="fundoBtn">
+    <a href="https://matheusasmr.000webhostapp.com/ttt/ttt.html">
+      <button class="botao">Tic-Tac-Toe</button>
+    </a>
+    <a href="https://matheusasmr.000webhostapp.com/bj/bj.html">
+      <button class="botao">BlackJack</button>
+    </a>
+    <a href="https://matheusasmr.000webhostapp.com/ttt/ttt.html">
+      <button class="botao">Genius</button>
+    </a>
+    <a href="https://matheusasmr.000webhostapp.com/ttt/ttt.html">
+      <button class="botao">Jogo da memória</button>
+    </a>
+  </div>
+
+
+
+
+
+  
+
+
+
+  <footer id="fundoRef">
+    <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/instagram.png" alt="Instagram">
+    <a class="sitesText" href="https://instagram.com/matheus.asmr">
+      <link id="siteinsta">Instagram</button></div></a>
+
+      <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/linkedin.png" alt="LinkedIn">
+      <a class="sitesText" href="https://linkedin.com/in/matheusasmr">
+        <link id="sitelink">LinkedIn</button></div></a>
+
+        <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/facebook.png" alt="Facebook">
+        <a class="sitesText" href="https://facebook.com/matheusasmr">
+          <link id="siteface">Facebook</button></div></a>
+
+          <div class="external"><img class="icoRef" src="https://matheusasmr.000webhostapp.com/icos/github.png" alt="GitHub">
+          <a class="sitesText" href="https://github.com/matheusasmr">
+            <link id="sitegit">GitHub</button></div></a>
+          </footer>
+
+         
+          <a class="whatsappback"  href="https://web.whatsapp.com/send?phone=5531993145906&text= Olá Matheus, queria tirar algumas dúvidas com você! "><img class="whatsapp" src="https://matheusasmr.000webhostapp.com/icos/whatsapp.png" alt="WhatsApp" ></a>
+          
+</body>
+
+
+</html>

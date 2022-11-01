@@ -1,0 +1,136 @@
+#background {
+    background-color: rgb(70, 70, 70);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#fundoBtn {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(127 204 223);
+    flex-direction: column;
+    padding: 20px;
+    width: 240px;
+    margin-top:150px;
+    margin-bottom:12%;
+    border-radius: 15%;
+}
+
+.botao {
+    width: 200px;
+    height: 50px;
+    
+}
+
+#fundoRef{
+    background-color: rgb(127 204 223);
+    width: 100%;
+    bottom: 0px;
+    position:fixed;
+    margin-bottom: 0%;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.cabecalho{
+  height: 50px;
+  right: 0px;
+
+}
+  
+.logo{
+  height: 90px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  
+}
+
+.whatsappback{
+    right: 20px;
+    bottom: 30px;
+    border: 0px;  
+    border-style:solid;
+    border-color: red;
+    position: fixed;
+  
+  }
+  
+  .whatsapp{
+    width: 80px;
+    border: 0px;  
+    border-style:solid;
+    border-color: red;
+  }
+
+.icoRef{
+    width: 18px;
+    
+}
+
+.sitesText{
+color: rgb(0, 0, 0);
+font-size: 145%;
+display:contents;}
+
+.external{
+    display:inline-block;
+    border: 0px;  
+    border-style:solid;
+    border-color: red;
+    margin-right: 10px;
+}
+
+.classAberta{
+  background-color: rgb(127 204 223);
+  border: 1;
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: 40px;
+  
+
+}
+
+.classFechada{
+  background-color: rgb(127 204 223);
+  border: 1;
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 40px;
+  opacity: 25%;
+
+}
+
+.itemBarra{
+  color: black;
+  background-color: white;
+  text-underline-offset: 1;
+  display: list-item;
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 30px;
+  position:static;
+  border: 0px;
+  border-right: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+
+  @media only screen and (max-width: 600px){
+  .sitesText{
+    color: rgb(0, 0, 0);
+    font-size: 50%;
+    display:contents;}
+    .icoRef{
+      width: 10px ;
+    }
+}
